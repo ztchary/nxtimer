@@ -1,0 +1,124 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Courier New', Courier, monospace;
+  background: #111;
+  color: #eee;
+  user-select: none;
+}
+
+
+.button {
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #eee;
+}
+
+.red {
+  color: #f88;
+}
+
+.green {
+  color: #8f8;
+}
+
+
+.center {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.stats {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.stats span {
+  padding: 5px;
+}
+
+
+.options {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.options span {
+  padding: 5px;
+}
+
+.options select {
+  color: #8ff;
+  background: transparent;
+  border: 0px;
+}
+
+.options select option {
+  background: #222;
+  color: #eee;
+}
+
+
+.scramble {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #222;
+}
+
+.scramble span {
+  margin: 30px;
+  font-weight: bold;
+  text-align: center;
+  width: 100vw;
+}
+
+
+.times {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000a;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.times textarea {
+  width: 75%;
+  height: 75%;
+  background: #222;
+  color: #eee;
+  border: 0px;
+  border-radius: 20px;
+  padding: 20px;
+  resize: none;
+}

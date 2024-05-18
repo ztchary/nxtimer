@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>nxtimer</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="scramble.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class="center">
+    <span id="timer" style="font-weight: bold;">you need to enable javascript</span>
+  </div>
+  <div class="stats">
+    <span id="edit" class="button green">edit</span>
+    <span id="reset" class="button red">reset</span>
+    <span>ao5 &nbsp;:<span id="avg5">0.00</span></span>
+    <span>ao12 :<span id="avg12">0.00</span></span>
+    <span>best :<span id="min">0.00</span></span>
+  </div>
+  <div class="options">
+    <span id="skip" class="button green">skip scramble</span>
+    <span>scramble <select id="stype"></select></span>
+    <span>inspection<span id="insp" class="button">?</span></span>
+  </div>
+  <div class="scramble">
+    <span id="scramble"></span>
+  </div>
+  <div class="times">
+    <textarea id="timearea"></textarea>
+    <span class="button green" id="editdone">done</span>
+  </div>
+</body>
+
+</html>
